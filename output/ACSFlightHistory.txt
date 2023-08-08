@@ -1,0 +1,2 @@
+SourceSystemID,ACSFltSegDate,AirlineCode,FltNbr,AirlineOrigAirport,AirlineDestAirport,SchdServiceStartTime,AAACityCode,AgentSine,ActionDate,ActionTime,AgntStationLNIATA,ActionItem,AgntDtyCd,AgntHomeStation,MsgCreateDateTime
+SY,2019-11-14 00:00:00,YY,2,BUE,MIA,16:05:00,DEN,SEA57Y3,07/27/09,22:10:28,63BFDD,GMU2Y30J ULDCA/7AB C 0000- SUCCESSF UL,5,HDQ,2019-11-14 14:14:59
