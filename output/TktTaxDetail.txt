@@ -1,0 +1,2 @@
+RecordIndicator,PNRLocatorID,PNRCreateDate,PrimaryDocNbr,VCRCreateDate,TransactionDateTime,TaxSeqNbr,TaxAmt,TaxCode,LocationTypeCode,ServiceCityCode
+21,GIPIBC,2019-01-26,2797928981787,2019-04-02,2019-02-12 08:21:15.000000,1,35.00,US2,0,BOS
