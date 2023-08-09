@@ -1,2 +1,0 @@
-SourceSystemID,PNRLocatorId,PNRCreateDate,ResPaxId,AirlineCode,FltNbr,ServiceStartDate,AirlineOrigAirport,CabinCode,SeatRowNbr,SeatLtr,PreResSeatInd,JumpSeatTypeCode,JumpSeatRowNbr,JumpSeatLtr,PaidUpgradeACAmt,InventoryUpgradeIn d,DowngradeInd,UpgradeInd,CoachUpgradeInd,BusinessUpgradeIn d,MsgCreateDateTim e
-SY,ABCDEG,2019-11-12,2,LA,538,2019-11-12,MIA,F,12,A,Y,A,1,A,200.00,Y,Y,Y,Y,Y,2019-11-14 14:14:59
