@@ -1,4 +1,4 @@
-Record Indicator,PNRLocatorID,PNRCreateDate,PrimaryDocNbr,VCRCreateDate,TransactionDateTime,PaymentSeqNbr,FOPCode,PaymentAmt,PaymentVendorCode,AcctNbr,PaymentCurrCode,PaymentRemarks,PaymentApprovalCode,PaymentApprovalTypeCode,BankCardBINNbr
+RecordIndicator,PNRLocatorID,PNRCreateDate,PrimaryDocNbr,VCRCreateDate,TransactionDateTime,PaymentSeqNbr,FOPCode,PaymentAmt,PaymentVendorCode,AcctNbr,PaymentCurrCode,PaymentRemarks,PaymentApprovalCode,PaymentApprovalTypeCode,BankCardBINNbr
 22,GIPIBC,2019-01-26,2797930000001,2019-01-20,2019-02-12 08:21:15.000000,1,CC,2345.65,VI,CASH*QIT3ZCR P02,USD,MISC NONREF,,M,444433
 22,GIPIBC,2019-01-26,2797930000002,2019-01-20,2019-02-12 08:21:15.000000,2,DC,100.00,MAST,CASH*QIT3ZCR P03,USD,MISC NONREF,,Z,556677
 22,GIPIBC,2019-01-26,2797930000003,2019-01-20,2019-02-12 08:21:15.000000,3,CA,500.00,VISA,CASH*QIT3ZCR P04,USD,MISC NONREF,,S,998877

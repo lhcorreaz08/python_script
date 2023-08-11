@@ -1,0 +1,2 @@
+RecordIndicator,PNRLocatorID,PNRCreateDate,PrimaryDocNbr,VCRCreateDate,TransactionDateTime,AddrSeqNbr,AddrTxt
+24,GIPIBC,2019-01-26,2797929007255,2019-01-20,2019-02-12 08:21:15.000000,1,John Smith 123 Main St. Southlake TX 76092

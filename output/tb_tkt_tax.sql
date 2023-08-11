@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS ODS_SABRE.tb_tkt_coupon 
+CREATE TABLE IF NOT EXISTS ODS_SABRE.tb_tkt_tax
 (
   `ID_DATE_BQ` STRING OPTIONS(description="Date of data load to the database."),
   `RecordIndicator` INT64 OPTIONS(description="A numeric value that identifies the table in which the row resides. All rows belonging to TktTax have a value of 20 in this column."),

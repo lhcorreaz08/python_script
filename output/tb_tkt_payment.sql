@@ -1,4 +1,4 @@
-CREATE TABLE ODS_SABRE.tb_tkt_payment (
+CREATE TABLE IF NOT EXISTS ODS_SABRE.tb_tkt_payment (
   `ID_DATE_BQ` STRING OPTIONS(description="Date of data load to the database."),
   `RecordIndicator` INT64 OPTIONS(description="A numeric value that identifies the table in which the row resides. All rows belonging to TktPayment have a value of 22 in this column."),
   `PNRLocatorID` STRING OPTIONS(description="Sabre PNR locator ID. Also known as the Host Record Locator."),
@@ -16,4 +16,9 @@ CREATE TABLE ODS_SABRE.tb_tkt_payment (
   `PaymentApprovalCode` STRING OPTIONS(description="Credit card/Debit card approval code."),
   `PaymentApprovalTypeCode` STRING OPTIONS(description="Code that conveys the method used to obtain credit/debit card approval code. Z = approval code obtained first from card vendor before the ticket/document was issued. S = sent via EDIFACT; approval code obtained through system. M = sent via edifact; approval code manually obtained."),
   `BankCardBINNbr` STRING OPTIONS(description="BIN number of the CC FOP for this ticket document.")
+)
+PARTITION BY(ID_DATE_BQ)
+OPTIONS(
+  description="This table stores information about airline ticket documents, capturing details such as ticket issuance, passenger data, fares, and financial information. It's a vital resource for tracking and managing ticket-related transactions, providing insights into passenger itineraries, fares, currencies, and more.",
+  labels=[("origen", "sabre"),("capa", "bronze"),("grupo","tkt"),("archivo","tktpayment")]
 );
